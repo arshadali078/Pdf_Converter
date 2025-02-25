@@ -64,7 +64,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="max-w-screen-2xl mx-auto container px-6 md:px-20 py-10">
+      <div className="max-w-screen-2xl mx-auto container px-6 md:px-20 py-10  bg-pink-300">
         <div className="flex flex-col h-screen items-center justify-center space-y-6">
           {/* Content Box */}
           <div className="border-2 border-dashed px-6 py-6 md:px-10 md:py-10 border-indigo-400 rounded-lg shadow-lg bg-white">
@@ -78,7 +78,7 @@ const Home = () => {
           </div>
 
           {/* File Upload Section */}
-          <div className="flex flex-col items-center space-y-4">
+          <div className="flex flex-col items-center  space-y-4">
             {/* File Input */}
             <input
               type="file"
